@@ -11,14 +11,17 @@ This project analyzes employee attrition using an HR dataset. The goal is to ide
 - Dashboard Design
 
 ## Dataset
-The dataset contains employee-related information such as:
+The dataset contains some important employee-related information such as:
+- EmpId
 - Age
-- Department
-- Job Role
-- Monthly Income
-- Years at Company
-- Job Satisfaction
-- Attrition Status
+- Attrition
+- JobRole
+- OverTime
+- SalarySlab
+- Attrition_f;ag
+- WorkLifeBalance
+- StockOptionLevel
+
 
 ## Data Cleaning
 The following steps were performed:
@@ -26,24 +29,35 @@ The following steps were performed:
 - Removed duplicate records
 - Standardized column names
 - Corrected data formats
+- Included necessary data columns
+- Used DAX formulas
 
 ## Dashboard Features
 The dashboard includes:
 
-- Attrition Rate KPI
+- Attrition Rate KPI,Employees left,Total Employees
 - Attrition by Department
-- Attrition by Age Group
-- Attrition by Job Role
+- Attrition by Salary Slab
+- Attrition by OverTime
 - Years at Company Analysis
-- Interactive filters
+- Slicers of Department,JobRole,Gender
 
 ## Insights
 Some key insights derived from the analysis:
 
-- Higher attrition observed in certain departments
-- Employees with fewer years at company show higher turnover
-- Job satisfaction impacts attrition trends
+- Total workforce consists of 1473 employees, with 237 employees leaving, resulting in an attrition rate of 16%.
+- Research and Development department experiences the highest attrition, followed by Sales, while HR has relatively lower attrition.
+- Overtime employees show significantly higher attrition, highlighting work-life balance as a potential retention factor.
+- Employees in lower salary ranges show higher turnover, indicating compensation may play a role in employee retention.
+  
+## Business Recommendations
+Some recommendations derived from the analysis:
 
+ -Reduce excessive overtime workload to improve employee work-life balance.
+ - Review and improve salary structure for lower salary slabs to reduce turnover.
+ - Conduct employee feedback surveys in high-attrition departments (R and D) to identify root causes.
+ - Implement employee engagement and career development programs to improve retention.
+   
 ## How to Use
 Download the Excel file and interact with the dashboard filters to explore employee attrition trends.
 
