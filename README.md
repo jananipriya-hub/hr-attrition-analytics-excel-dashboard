@@ -1,7 +1,10 @@
 # HR Attrition Analytics Dashboard (Excel)
 
 ## Project Overview
-This project analyzes employee attrition using an HR dataset. The goal is to identify patterns and factors that contribute to employee turnover.
+This project analyzes employee attrition data using Excel to identify patterns in employee turnover across departments, job roles, and salary levels. An interactive dashboard was created using Pivot Tables, charts, and slicers to visualize key insights.
+
+## Project Objective
+The objective of this project is to understand attrition trends and highlight factors that may influence employee turnover, helping HR teams make better workforce decisions.
 
 ## Tools Used
 - Microsoft Excel
